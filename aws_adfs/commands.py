@@ -14,7 +14,7 @@ from . import __version__
 def _print_version(ctx, param, value):
     if not value or ctx.resilient_parsing:
         return
-    click.echo(__version__)
+    click.echo('2.8.3.disable-user-agent-duo-headers')
     ctx.exit()
 
 
